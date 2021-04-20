@@ -9,49 +9,37 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <!-- 
-        TODO:
-         - Nav
-         - Left and Right Column
-         - Footer
-     -->
-     <!-- <div class="my_container_fluid">
-         <p>Hello World!</p>
-     </div> -->
-    <!-- <div class="container-fluid primary_color">
-        <p>Hello World!</p>
-    </div> -->
-    <header class="container-fluid text-dark">
-        <nav>
-            <ul class="row">
-                <li>
-                    Home
-                </li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
+    
+    <header class="container-fluid">
+        <nav class="row">
+            <div class="col-md-4 col-sm-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item">Home</li>
+                    <li class="list-inline-item">About</li>
+                    <li class="list-inline-item">Contact</li>
+                </ul>
+            </div>
         </nav>
-        <div class="jumbotron lead text-center">
+        <div class="jumbotron lead text-center secondary_bg">
             <div class="container ">
                 <p class="display-3">Hello World</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae molestiae vel.</p>
-                <button class="btn border border-primary btn-light">Learn More!</button>
+                <button class="btn border border-light text-light">Learn More!</button>
             </div>
         </div>
-
     </header>
-    <div class="container primary_color vh-100">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 bg-info">
+            <div class="col-sm-12 col-md-6 secondary_bg">
                 <p>Column One - Left</p>
             </div>
-            <div class="col-sm-12 col-md-6 bg-primary">
+            <div class="col-sm-12 col-md-6 primary_bg">
                 <p>Column Two - Right</p>
             </div>
         </div>
     </div>
     <footer class="row">
-        <div class="col-sm-12 bg-light">
+        <div class="col-sm-12">
             <p>Footer</p>
         </div>
     </footer>
